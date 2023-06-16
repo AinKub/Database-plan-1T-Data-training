@@ -23,7 +23,7 @@
 Для того, чтобы развернуть базу данных в контейнере, при установленном docker и docker-compose, нужно перейти в директорию `db` и применить команду `docker-compose up -d`.
 После можно проверить работу, зайдя в psql и проверив созданные таблицы:
 ```
-docker exec -it db_container psql -U postgres -d library_db
+docker exec -it db_container psql -U postgres -d librarydb
 \dt
 \q
 ```
